@@ -14,22 +14,48 @@
               
               <div class="col-md-4">
                 <section class="login-form">
-                  <form method="post" action="#" role="login">
+                  <form method="post" action="#" role="login"><center>
                     <img src="C:\xampp\htdocs\Bootstrap\bootstrap-3.3.7-dist\imgs/Logotipoixitolo.jpg" class="img-responsive" alt="" />
-                    <center><input type="email" name="email" placeholder="Nome Comple" required class="form-control input-lg" value=""/>
+                    <left><input type="email" name="nome" placeholder="Nome Completo" required class="form-control input-lg" value=""/>
+                      <input type="email" name="num" placeholder="Número de telefone" required class="form-control input-lg" value=""/>
+                    <Right><input type="email" name="Endereco" placeholder="Endereço" required class="form-control input-lg" value=""/>
+                    </left></Right><br></center>
+                    <center>
                     <br>
-                    <center><input type="email" name="email" placeholder="Email" required class="form-control input-lg" value=""/>
-                    <br>
-                    <center><input type="email" name="email" placeholder="Número de telefone" required class="form-control input-lg" value=""/>
-                    <br>
-                    <input type="password" class="form-control input-lg" id="password" placeholder="Password" required="" />
-                    <br>
-                    <input type="password" class="form-control input-lg" id="password" placeholder="Confirmar Password" required="" />
+                    <left><input type="email" name="email" placeholder="Email" required class="form-control input-lg" value=""/>
+                      <input type="password" class="form-control input-lg" id="password" placeholder="Password" required="" />
+                    <right><input type="password" class="form-control input-lg" id="password" placeholder="Confirmar Password" required="" />
                     
-                    <div class="pwstrength_viewport_progress"></div>
                     
-                    <button class="snip1434">Criar conta<i class="ion-settings"></i></button>  <a href="login.html"><button class="snip1434">Entrar<i class="ion-person-stalker"></i></button></a>
-                    
+                    <fieldset>
+                    <legend>Cartão de crédito</legend>
+                  
+                    <div class="form-group">
+                      <label for="numero-cartao">Número - CVV</label>
+                      <input type="text" class="form-control" 
+                             id="numero-cartao" name="numero-cartao">
+                    </div>
+                  
+                    <div class="form-group">
+                      <label for="bandeira-cartao">Bandeira</label>
+                      <select name="bandeira-cartao" id="bandeira-cartao"
+                          class="form-control">
+                        <option value="master">MasterCard</option>
+                        <option value="visa">VISA</option>
+                        <option value="amex">American Express</option>
+                      </select>
+                    </div>
+                  
+                    <div class="form-group">
+                      <label for="validade-cartao">Validade</label>
+                      <input type="month" class="form-control" 
+                             id="validade-cartao" name="validade-cartao">
+                    </div>
+                  </fieldset>
+
+
+                  <div class="pwstrength_viewport_progress"></div>
+                  <button class="snip1434">Criar conta<i class="ion-settings"></i></button>  <a href="login.html"><button class="snip1434">Entrar<i class="ion-person-stalker"></i></button></a>
                   </form>
                 </div>
                   <nav>
